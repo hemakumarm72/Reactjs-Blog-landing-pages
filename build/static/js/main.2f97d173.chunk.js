@@ -1,2 +1,0 @@
-(this["webpackJsonplearn-react"]=this["webpackJsonplearn-react"]||[]).push([[0],{11:function(e,t,n){"use strict";n.r(t);var c=n(0),r=n.n(c),i=n(3),s=n.n(i),a=(n(8),n(9),n(1));var o=function(){return Object(a.jsx)("p",{children:"Swiggy site"})};s.a.render(Object(a.jsx)(r.a.StrictMode,{children:Object(a.jsx)(o,{})}),document.getElementById("root"))},8:function(e,t,n){},9:function(e,t,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.2f97d173.chunk.js.map
