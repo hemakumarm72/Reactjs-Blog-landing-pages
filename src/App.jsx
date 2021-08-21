@@ -1,8 +1,9 @@
 import './Styles/App.css';
 import React from 'react';
+import { Mainpages } from 'pages';
 
 function App() {
-    return <h1>Welcome</h1>;
+    return <Mainpages />;
 }
 
 export default App;

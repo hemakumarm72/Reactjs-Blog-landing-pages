@@ -1,3 +1,3 @@
-import { mainpages } from "./main/main";
+import Mainpages from 'pages/main/Mainpages';
 
-export { mainpages };
+export { Mainpages };
