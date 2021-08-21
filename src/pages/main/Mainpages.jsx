@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from 'Components/pageLayout/header/Header';
+import { Header } from 'Components';
 
 function Mainpages() {
     return (
