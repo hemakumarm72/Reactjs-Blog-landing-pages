@@ -1,2 +1,0 @@
-(this["webpackJsonplearn-react"]=this["webpackJsonplearn-react"]||[]).push([[3],{12:function(n,t,e){},13:function(n,t,e){"use strict";e.r(t);e(12),e(1);var r=e(0);var c=function(){return Object(r.jsx)(r.Fragment,{children:Object(r.jsx)("h1",{children:"fsdf"})})};var s=function(){return Object(r.jsx)(r.Fragment,{children:Object(r.jsx)(c,{})})};t.default=function(){return Object(r.jsx)(s,{})}}}]);
-//# sourceMappingURL=3.6902d2ec.chunk.js.map
