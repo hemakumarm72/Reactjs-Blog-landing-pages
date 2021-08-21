@@ -1,0 +1,15 @@
+{
+    "paths": 
+    {
+    "@components/**": ["Components/*"],
+    "@styles/**": [
+        "Styles/*"
+    ],
+    "@data/**": [
+        "Data/*"
+    ],
+    
+
+} 
+
+}

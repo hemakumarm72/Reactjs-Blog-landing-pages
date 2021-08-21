@@ -2,14 +2,20 @@
     "trailingComma": "es5",
     "tabWidth": 4,
     "semi": false,
+
     "singleQuote": true,
     "lint-staged": {
         "*.+(js|jsx)": ["prettier --write --ignore-unknown"],
         "*.+(json|css|md)": ["prettier --write"]
     },
-   
-        "prettier": {
-            "singleQuote": true
+
+    "prettier": {
+        "singleQuote": true
+    },
+    "prettier/prettier": [
+        "error",
+        {
+            "endOfLine": "auto"
         }
-    
+    ]
 }
