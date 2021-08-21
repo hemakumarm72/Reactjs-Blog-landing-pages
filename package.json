@@ -1,4 +1,5 @@
 {
+    "homepage": "https://hemakumarm72.github.io/Reactjs-Blog-landing-pages/",
     "name": "learn-react",
     "version": "0.1.0",
     "private": true,
@@ -19,6 +20,8 @@
         "webpack-bundle-analyzer": "^4.4.2"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",

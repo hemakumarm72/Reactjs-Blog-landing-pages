@@ -2,7 +2,7 @@
 
 # Reactjs
 
-# https://relaxed-bardeen-97ae65.netlify.app/
+# https://hemakumarm72.github.io/Reactjs-Blog-landing-pages/
 
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 

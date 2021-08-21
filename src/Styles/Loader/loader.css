@@ -105,9 +105,9 @@ a {
     75% {
         transform: scale(1) rotate(225deg);
     }
-   100% {
+    100% {
         top: 0px;
-        tr ansform: rotate(225deg);
+        transform: rotate(225deg);
     }
 }
 
