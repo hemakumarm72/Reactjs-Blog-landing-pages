@@ -1,15 +1,6 @@
 {
-    "paths": 
-    {
-    "@components/**": ["Components/*"],
-    "@styles/**": [
-        "Styles/*"
-    ],
-    "@data/**": [
-        "Data/*"
-    ],
-    
-
-} 
-
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
 }
