@@ -26,7 +26,6 @@ module.exports = {
         'react/prop-types': 0,
         'import/prefer-default-export': 0,
         'import/no-unresolved': 0,
-        'eslintreact/destructuring-assignment': 0,
         'react/prefer-stateless-function': 0,
         'react/state-in-constructor': 0,
         'react/no-unused-state': -0,

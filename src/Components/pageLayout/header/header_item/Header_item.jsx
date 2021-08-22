@@ -1,5 +1,6 @@
 import React from 'react';
-import 'Styles/Header/Header.css';
+import 'Styles/Header/Header_item.css';
+import { Headerimage } from 'Assest/Data/Image';
 
 function Headeritem() {
     return (
@@ -15,21 +16,27 @@ const HeaderContainer = () => (
     </div>
 );
 
-const Headerinside = () => (
+const Headerinside = ({ headerimage = Headerimage[0].Image }) => (
     <>
-        <Container>
-            <div className="header">
-                <h1>Header work</h1>
-            </div>
-        </Container>
+        <div
+            className="header"
+            style={{ backgroundImage: `url(${headerimage})` }}
+        >
+            <Navigation />
+        </div>
     </>
 );
 
-const Container = ({ children }) => (
-    <div className="container">
-        <h1>Container inside</h1>
-        {children}
-    </div>
+const Navigation = () => (
+    <Container>
+        <div className="navigation">
+            <h1>navigation</h1>
+        </div>
+    </Container>
+);
+
+export const Container = ({ children }) => (
+    <div className="container">{children}</div>
 );
 
 export default Headeritem;
