@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import 'Styles/Header/Header_item.css';
 import { Headerimage } from 'Assest/Data/Image';
-import Navigation from 'Components/pageLayout/header/header_item/Navigation';
 // import Navigation from 'Components/pageLayout/header/header_item/Navigation';
+const Navigation = lazy(() =>
+    import('Components/pageLayout/header/header_item/Navigation')
+);
 
 function Headeritem() {
     return (
