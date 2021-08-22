@@ -1,12 +1,12 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import './Styles/index.css';
+import 'Styles/index.css';
 import { lazy } from '@loadable/component';
-import Loader from './Elements/Loader/Loader';
+import Loader from 'Elements/Loader/Loader';
 
 // import App from './App'
 
-const App = lazy(() => import('./App'));
+const App = lazy(() => import('App'));
 
 ReactDOM.render(
     <React.StrictMode>
