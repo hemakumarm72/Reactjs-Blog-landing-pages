@@ -1,6 +1,6 @@
 import React from 'react';
 import 'Styles/Header/LogoSection.css';
-import { Headerimage } from 'Assest/Data/Image';
+import { Headerimage } from 'Assest/Data/HomepagesData';
 
 function LogoSection() {
     return (
