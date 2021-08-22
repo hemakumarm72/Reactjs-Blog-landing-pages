@@ -1,12 +1,6 @@
 import React from 'react';
 import 'Styles/Header/Header_item.css';
-import { Headerimage } from 'Assest/Data/Image';
-
-// import { lazy } from '@loadable/component';
-// import Navigation from 'Components/pageLayout/header/header_item/Navigation';
-// const Navigation = lazy(() =>
-//     import('Components/pageLayout/header/header_item/Navigation')
-// );
+// import { Headerimage } from 'Assest/Data/Image';
 
 import Navigation from 'Components/pageLayout/header/header_item/Navigation';
 
@@ -24,12 +18,9 @@ const HeaderContainer = () => (
     </div>
 );
 
-const Headerinside = ({ headerimage = Headerimage[0].Image }) => (
+const Headerinside = () => (
     <>
-        <div
-            className="header"
-            style={{ backgroundImage: `url(${headerimage})` }}
-        >
+        <div className="header">
             <Navigation />
         </div>
     </>

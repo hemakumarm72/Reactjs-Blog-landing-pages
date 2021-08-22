@@ -14,6 +14,7 @@
 }
 
 .header {
+    background-image: url('Assest/images/bg-pattern-intro.svg');
     background-repeat: no-repeat;
     z-index: 1;
     background-position: -28.75vw -84.375vw;

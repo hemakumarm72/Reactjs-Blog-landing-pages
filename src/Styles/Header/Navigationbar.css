@@ -1,0 +1,21 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 0 4.0625vw 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--White);
+    font-size: 1vw;
+}
+
+.arrow-light {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--White);
+}
