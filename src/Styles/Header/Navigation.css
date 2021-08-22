@@ -1,0 +1,10 @@
+.navigation {
+    font-size: 2vw;
+    padding-top: 2.1375vw;
+    position: relative;
+    font-family: var(--font-ubuntu);
+    font-weight: 300;
+    display: flex;
+
+    justify-content: space-between;
+}

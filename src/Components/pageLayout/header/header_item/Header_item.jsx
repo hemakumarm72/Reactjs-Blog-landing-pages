@@ -1,6 +1,7 @@
 import React from 'react';
 import 'Styles/Header/Header_item.css';
 import { Headerimage } from 'Assest/Data/Image';
+import Navigation from 'Components/pageLayout/header/header_item/Navigation';
 
 function Headeritem() {
     return (
@@ -25,14 +26,6 @@ const Headerinside = ({ headerimage = Headerimage[0].Image }) => (
             <Navigation />
         </div>
     </>
-);
-
-const Navigation = () => (
-    <Container>
-        <div className="navigation">
-            <h1>navigation</h1>
-        </div>
-    </Container>
 );
 
 export const Container = ({ children }) => (
