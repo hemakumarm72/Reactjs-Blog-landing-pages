@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from 'Components';
 
-function Mainpages() {
+function Homepages() {
     return (
         <>
             <Header />
@@ -9,4 +9,4 @@ function Mainpages() {
     );
 }
 
-export default Mainpages;
+export default Homepages;

@@ -1,9 +1,10 @@
 import './Styles/App.css';
 import React from 'react';
-import { Mainpages } from 'pages';
+
+import Routers from 'Routers/Routers';
 
 function App() {
-    return <Mainpages />;
+    return <Routers />;
 }
 
 export default App;
