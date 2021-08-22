@@ -1,3 +1,1 @@
-import Mainpages from 'pages/main/Mainpages';
-
-export { Mainpages };
+export { default as Mainpages } from 'pages/main/Mainpages';

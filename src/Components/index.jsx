@@ -1,3 +1,1 @@
-import Header from 'Components/pageLayout/header/Header';
-
-export { Header };
+export { default as Header } from 'Components/pageLayout/header/Header';
