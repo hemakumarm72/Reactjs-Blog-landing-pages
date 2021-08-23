@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'Styles/index.css';
+
 // import { lazy } from '@loadable/component';
 // import Loader from 'Elements/Loader/Loader';
 
