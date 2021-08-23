@@ -10,12 +10,13 @@ function LogoSection() {
     );
 }
 
-export const Logo = ({
+const Logo = ({
+    classes,
     image = Headerimage[1].Image,
     indexvalue = Headerimage[1].index,
 }) => (
     <img
-        className="logo"
+        className={classes}
         width="100%"
         height="auto"
         src={image}
@@ -32,9 +33,9 @@ const Humburger = () => (
     </div>
 );
 
-const Logosectiondiv = () => (
+export const Logosectiondiv = () => (
     <div className="logosection">
-        <Logo />
+        <Logo classes="logo" />
         <Humburger />
     </div>
 );

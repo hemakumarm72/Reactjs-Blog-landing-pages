@@ -1,0 +1,46 @@
+footer {
+    height: 22.5rem;
+    background-color: var(--Very-dark-black-blue);
+    font-family: var(--font-overpass);
+    border-radius: 0 100px 0 0;
+}
+
+footer section {
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    padding-top: 4.4375rem;
+}
+
+.logosection {
+    text-align: center;
+}
+
+.footerlink {
+    display: flex;
+    justify-content: space-around;
+}
+.footerlink article h1 {
+    color: var(--White);
+    font-family: var(--font-overpass);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footerlink article ul {
+    list-style: none;
+}
+
+.footerlink article ul {
+    margin-top: 2.5625rem;
+}
+
+.footerlink article ul li {
+    margin-top: 1.1125rem;
+}
+
+.footerlink article ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--Grayish-blue);
+}

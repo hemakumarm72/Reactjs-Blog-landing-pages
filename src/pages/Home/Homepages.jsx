@@ -1,5 +1,11 @@
 import React from 'react';
-import { Header, Features, StateFeatures, DesktopSection } from 'Components';
+import {
+    Header,
+    Features,
+    StateFeatures,
+    DesktopSection,
+    Footer,
+} from 'Components';
 
 function Homepages() {
     return (
@@ -8,6 +14,7 @@ function Homepages() {
             <Features />
             <StateFeatures />
             <DesktopSection />
+            <Footer />
         </>
     );
 }
