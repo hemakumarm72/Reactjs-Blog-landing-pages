@@ -1,10 +1,11 @@
 import React from 'react';
-import { Header } from 'Components';
+import { Header, Features } from 'Components';
 
 function Homepages() {
     return (
         <>
             <Header />
+            <Features />
         </>
     );
 }
