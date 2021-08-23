@@ -1,5 +1,6 @@
 import React from 'react';
 import 'Styles/Header/Buttonnav.css';
+import { NavLink } from 'react-router-dom';
 
 function Buttonnav({ classname }) {
     return <Buttondiv classes={classname} />;
@@ -7,11 +8,12 @@ function Buttonnav({ classname }) {
 
 const Buttondiv = ({ classes }) => (
     <div className={classes}>
-        <a href="/login">
+        <NavLink className="link" to="/login">
             <button type="button" className="nav-btn btn-login">
                 Login
             </button>
-        </a>
+        </NavLink>
+
         <button type="button" className="nav-btn btn-signup">
             Sign Up
         </button>
