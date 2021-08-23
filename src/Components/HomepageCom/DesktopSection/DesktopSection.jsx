@@ -1,5 +1,5 @@
 import React from 'react';
-import Desktopitem from 'Components/pageLayout/DesktopSection/Desktop_item/DesktopItem';
+import Desktopitem from 'Components/HomepageCom/DesktopSection/Desktop_item/DesktopItem';
 
 function DesktopSection() {
     return (

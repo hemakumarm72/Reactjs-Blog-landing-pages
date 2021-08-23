@@ -1,5 +1,5 @@
 import React from 'react';
-import Featuresblock from 'Components/pageLayout/features/features_item/Featuresblock';
+import Featuresblock from 'Components/HomepageCom/features/features_item/Featuresblock';
 
 function Features() {
     return (

@@ -6,6 +6,7 @@ import { Loader } from 'Elements';
 // import { Homepages } from 'pages';
 
 const Homepages = lazy(() => import('pages/Home/Homepages'));
+const Login = lazy(() => import('pages/Login/Login'));
 
 function Routers() {
     return (
@@ -13,6 +14,8 @@ function Routers() {
             <Suspense fallback={<Loader />}>
                 <Switch>
                     <Route path="/" exact component={Homepages} />
+
+                    <Route path="/login" component={Login} />
                 </Switch>
             </Suspense>
         </Routes>

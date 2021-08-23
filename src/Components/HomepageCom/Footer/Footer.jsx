@@ -1,5 +1,5 @@
 import React from 'react';
-import Footeritem from 'Components/pageLayout/Footer/Footeritem/Footeritem';
+import Footeritem from 'Components/HomepageCom/Footer/Footeritem/Footeritem';
 import Logoimage from 'Assest/logo/logo.svg';
 
 function Footer() {

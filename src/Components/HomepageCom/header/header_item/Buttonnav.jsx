@@ -7,9 +7,11 @@ function Buttonnav({ classname }) {
 
 const Buttondiv = ({ classes }) => (
     <div className={classes}>
-        <button type="button" className="nav-btn btn-login">
-            Login
-        </button>
+        <a href="/login">
+            <button type="button" className="nav-btn btn-login">
+                Login
+            </button>
+        </a>
         <button type="button" className="nav-btn btn-signup">
             Sign Up
         </button>
