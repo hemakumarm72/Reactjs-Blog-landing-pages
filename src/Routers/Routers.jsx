@@ -7,8 +7,7 @@ import { Loader } from 'Elements';
 
 const Homepages = lazy(() => import('pages/Home/Homepages'));
 const Login = lazy(() => import('pages/Login/Login'));
-Homepages.preload();
-Login.preload();
+
 function Routers() {
     return (
         <Routes>
