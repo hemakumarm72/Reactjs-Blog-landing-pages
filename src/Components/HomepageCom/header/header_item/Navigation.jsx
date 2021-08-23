@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container } from 'Components/HomepageCom/Container/Container';
 import 'Styles/Header/Navigation.css';
+import { Container } from 'Components/HomepageCom/Container/Container';
+
 import LogoSection from 'Components/HomepageCom/header/header_item/LogoSection';
 import Navigationbar from 'Components/HomepageCom/header/header_item/Navigation_bar';
 import Buttonnav from 'Components/HomepageCom/header/header_item/Buttonnav';

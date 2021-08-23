@@ -8,7 +8,7 @@ function Buttonnav({ classname }) {
 
 const Buttondiv = ({ classes }) => (
     <div className={classes}>
-        <NavLink className="link" to="/login">
+        <NavLink className="link" exact to="/login">
             <button type="button" className="nav-btn btn-login">
                 Login
             </button>
