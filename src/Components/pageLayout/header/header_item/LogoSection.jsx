@@ -17,8 +17,6 @@ const Logo = ({
 }) => (
     <img
         className={classes}
-        width="100%"
-        height="auto"
         src={image}
         key={indexvalue}
         alt="Logosection images."

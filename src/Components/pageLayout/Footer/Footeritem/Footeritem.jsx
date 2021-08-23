@@ -1,6 +1,7 @@
 import React from 'react';
 import 'Styles/Footer/Footer.css';
 import { Navigationdatalink } from 'Assest/Data/HomepagesData';
+import 'Styles/mediaquery.css';
 
 function Footeritem() {
     return <Footerlinkdiv />;
@@ -15,7 +16,7 @@ const Footerlinkdiv = () => (
 
                     <ul>
                         {d.navulli.map((f) => (
-                            <li key={`${f.Droplink}1`}>
+                            <li key={`${f.Droplink} footer`}>
                                 <a href="#main">{f.Droplink}</a>
                             </li>
                         ))}
