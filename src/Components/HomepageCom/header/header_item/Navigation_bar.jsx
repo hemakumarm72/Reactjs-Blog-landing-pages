@@ -29,7 +29,7 @@ const Navigationbardiv = () => (
                             </span>
                         </a>
 
-                        <Navbarinside navclass={d.navclass} navid={d.navid} />
+                        <Navbarinside data={d} />
                     </li>
                 ))}
             </ul>
@@ -49,20 +49,14 @@ const Navigationbardiv = () => (
     </>
 );
 
-const Navbarinside = ({ navclass, navid }) => (
-    <nav className={navclass} id={navid}>
+const Navbarinside = ({ data }) => (
+    <nav className={data.navclass} id={data.navid}>
         <ul className="dropdown-ul">
-            {Navigationdatalink.map((e) => (
-                <li key={e.navid}>
-                    {e.navulli.map((f) => (
-                        <a
-                            key={f.Droplink}
-                            href="#main"
-                            className="dropdown-link"
-                        >
-                            {f.Droplink}
-                        </a>
-                    ))}
+            {data.navulli.map((f) => (
+                <li key={f.Droplink}>
+                    <a key={f.Droplink} href="#main" className="dropdown-link">
+                        {f.Droplink}
+                    </a>
                 </li>
             ))}
         </ul>
