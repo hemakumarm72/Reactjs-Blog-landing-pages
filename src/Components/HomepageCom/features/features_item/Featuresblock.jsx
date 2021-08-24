@@ -1,5 +1,4 @@
 import React from 'react';
-import 'Styles/Features/FeaturesBlock.css';
 
 function Featuresblock() {
     return (

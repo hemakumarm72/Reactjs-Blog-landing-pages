@@ -1,7 +1,6 @@
 import React from 'react';
-import 'Styles/Footer/Footer.css';
+
 import { Navigationdatalink } from 'Assest/Data/HomepagesData';
-import 'Styles/mediaquery.css';
 
 function Footeritem() {
     return <Footerlinkdiv />;

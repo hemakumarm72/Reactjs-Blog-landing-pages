@@ -1,6 +1,6 @@
 import React from 'react';
 import phoneiconimage from 'Assest/images/illustration-phones.svg';
-import 'Styles/StatesFeatures/StateFeatures.css';
+
 import LazyLoad from 'react-lazyload';
 
 function StateFeaturesitem() {

@@ -1,5 +1,4 @@
 import React from 'react';
-import 'Styles/Header/Headercontainertext.css';
 
 function Headercontainertext() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Styles/Header/Buttonnav.css';
+
 import { NavLink } from 'react-router-dom';
 
 function Buttonnav({ classname }) {

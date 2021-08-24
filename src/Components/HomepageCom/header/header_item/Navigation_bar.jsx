@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Styles/Header/Navigationbar.css';
+
 import { Navigationdatalink } from 'Assest/Data/HomepagesData';
 import Buttonnav from 'Components/HomepageCom/header/header_item/Buttonnav';
 
@@ -20,7 +20,12 @@ const Navigationbardiv = () => (
                         <a href="#main" className="link-a" id={d.id}>
                             {d.Name}{' '}
                             <span className="arrow-light-span">
-                                <img src={d.Image} alt="Logosection images." />
+                                <img
+                                    className="arrow-light"
+                                    id={d.arrowlightid}
+                                    src={d.Image}
+                                    alt="Logosection images."
+                                />
                             </span>
                         </a>
 

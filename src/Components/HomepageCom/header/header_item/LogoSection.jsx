@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Styles/Header/LogoSection.css';
+
 import { Headerimage } from 'Assest/Data/HomepagesData';
 
 function LogoSection() {
@@ -24,7 +24,7 @@ const Logo = ({
 );
 
 const Humburger = () => (
-    <div className="humburger">
+    <div className="humburger" id="humburger-1">
         <span className="line" />
         <span className="line" />
         <span className="line" />
@@ -32,7 +32,7 @@ const Humburger = () => (
 );
 
 export const Logosectiondiv = () => (
-    <div className="logosection">
+    <div className="logo-section">
         <Logo classes="logo" />
         <Humburger />
     </div>

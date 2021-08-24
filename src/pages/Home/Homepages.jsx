@@ -1,4 +1,5 @@
 import React from 'react';
+import 'Styles/Homepages/Index.css';
 import {
     Header,
     Features,

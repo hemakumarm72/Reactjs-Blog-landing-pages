@@ -370,4 +370,7 @@
     .footerlink article {
         margin: 5.125rem 0;
     }
+    .attribution {
+        font-size: 1rem;
+    }
 }

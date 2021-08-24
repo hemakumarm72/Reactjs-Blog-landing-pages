@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Styles/Header/Navigation.css';
+
 import { Container } from 'Components/HomepageCom/Container/Container';
 
 import LogoSection from 'Components/HomepageCom/header/header_item/LogoSection';

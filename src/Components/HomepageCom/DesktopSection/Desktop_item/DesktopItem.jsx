@@ -1,5 +1,4 @@
 import React from 'react';
-import 'Styles/Desktopsection/Desktopsection.css';
 
 function DesktopItem() {
     return (
